@@ -1,0 +1,175 @@
+.dashboard {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+}
+
+.main {
+    margin: 15px;
+}
+
+.form{
+    height: auto;
+    width: auto;
+    background-color: rgba(255,255,255,0.13);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 30px 35px;
+    display: flex;
+    flex-direction: column;
+}
+.form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+.form-title h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+}
+
+.form-title p{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 42px;
+}
+
+.form-title h1{
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 42px;
+    padding-bottom: 20px;
+}
+
+.form-title h1 span {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+.formData {
+    margin-top: 30px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.input option {
+    color: black;
+}
+
+::placeholder{
+    color: #e5e5e5;
+}
+
+.button{
+    margin-top: 30px;
+    padding: 20px 0;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.mic{
+    align-self: center;
+    margin-top: 110px;
+}
+
+
+
+.details {
+    margin: 15px 15px 15px 0;
+}
+
+.tracker {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.budget {
+    flex-grow: 1;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+
+.transcation {
+    margin-top: 15px;
+    height: 530px;
+    overflow-y: scroll;
+}
+
+.transactionList {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.transactionIcon {
+    padding: 0 10px;
+    font-size: 45px;
+}
+
+.transactionDelete {
+    padding: 0 10px;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.transactiondetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 0 30px;
+}
+
+.transactionType {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.transactionAmount {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
